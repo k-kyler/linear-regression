@@ -38,13 +38,17 @@ Where:
 To minimize the loss function, we implemented gradient descent, which iteratively updates the parameters in the direction of the steepest decrease in the loss:
 
 For parameter $a$:
+
 $$\frac{\partial MSE}{\partial a} = -\frac{2}{n}\sum_{i=1}^{n}x_i(y_i - (ax_i + b))$$
 
 For parameter $b$:
+
 $$\frac{\partial MSE}{\partial b} = -\frac{2}{n}\sum_{i=1}^{n}(y_i - (ax_i + b))$$
 
 The update rules:
+
 $$a_{new} = a_{current} - L \times \frac{\partial MSE}{\partial a}$$
+
 $$b_{new} = b_{current} - L \times \frac{\partial MSE}{\partial b}$$
 
 Where $L$ is the learning rate, controlling the step size of each iteration.
