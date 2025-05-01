@@ -1,4 +1,5 @@
 matplotlib
 numpy
-ipykernel
 pandas
+ipykernel
+openpyxl
