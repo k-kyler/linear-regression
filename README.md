@@ -1,4 +1,4 @@
-# Linear Regression from Scratch
+# Linear Regression from scratch
 
 Linear regression is one of the fundamental algorithms in machine learning, used to model the relationship between a dependent variable and one or more independent variables. In this notebook, I implemented linear regression from scratch to understand its mathematical principles deeply.
 
